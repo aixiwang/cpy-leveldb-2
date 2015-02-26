@@ -1,25 +1,19 @@
-# cpy-leveldb #
+# cpy-leveldb-2 #
 Python bindings for LevelDB using leveldb c api
-(http://code.google.com/p/leveldb/)
+Based on https://github.com/forhappy/cpy-leveldb project
+
 author: Fu Haiping (haipingf@gmail.com)
+README.md is updated by Aixi Wang <aixi.wang@hotmail.com>
 
 
-# 1. Build Instructions #
-
-
-First of all, you need to build the included snappy and  leveldb library.
-
-# 1.1 Build Snappy #
-    $ cd snappy
-    $ ./configure && make && make install
-
-
-# 1.2 Build LevelDB #
+1. How to build
+------------------
     $ cd leveldb
-    $ make 
-
-# 1.3 Then, build the extension itself #
-
+    $ make
+    $ cp *.a /usr/local/lib
+    $ cp lib*so.* /lib
+    $ cp lib*so.* /lib/
+    $ cd ..
     $ python setup.py build
 
 
