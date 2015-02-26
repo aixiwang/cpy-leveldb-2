@@ -2,8 +2,8 @@
 Python bindings for LevelDB using leveldb c api
 Based on https://github.com/forhappy/cpy-leveldb project
 
-author: Fu Haiping (haipingf@gmail.com)
-README.md is updated by Aixi Wang <aixi.wang@hotmail.com>
+Author: Fu Haiping (haipingf@gmail.com)
+<br>README.md is updated by Aixi Wang <aixi.wang@hotmail.com>
 
 
 1. How to build
